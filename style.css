@@ -1,46 +1,33 @@
-* General Styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
     text-align: center;
-    padding: 20px 0;
+    margin: 0;
+    padding: 0;
 }
 
-header h1 {
-    font-size: 3em;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-header p {
+nav ul li a {
+    color: white;
+    text-decoration: none;
     font-size: 1.2em;
-}
-
-.fashion-gallery {
-    padding: 20px;
-    text-align: center;
-}
-
-.fashion-gallery h2 {
-    font-size: 2em;
-}
-
-.gallery {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.gallery img {
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
 }
 
 footer {
@@ -48,4 +35,43 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
 }
